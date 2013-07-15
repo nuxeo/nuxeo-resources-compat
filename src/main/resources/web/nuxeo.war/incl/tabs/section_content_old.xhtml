@@ -5,6 +5,10 @@
   xmlns:c="http://java.sun.com/jstl/core"
   xmlns:nxd="http://nuxeo.org/nxweb/document"
   xmlns:nxu="http://nuxeo.org/nxweb/util">
+<c:if test="false">
+deprecated at least since 5.7.2, surely 5.5 since content views are more
+configurable
+</c:if>
 
   <ui:include src="/incl/document_actions.xhtml" />
   <nxu:methodResult name="provider" value="#{resultsProvidersCache.get('CURRENT_DOC_CHILDREN')}" >
