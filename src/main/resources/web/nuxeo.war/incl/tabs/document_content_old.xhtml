@@ -2,6 +2,10 @@
   xmlns:ui="http://java.sun.com/jsf/facelets"
   xmlns:c="http://java.sun.com/jstl/core"
   xmlns:nxu="http://nuxeo.org/nxweb/util">
+<c:if test="false">
+deprecated at least since 5.7.2, surely 5.5 since content views are more
+configurable
+</c:if>
 
   <c:if test="#{currentDocument.currentLifeCycleState != 'deleted'}">
     <ui:include src="/incl/document_actions.xhtml" />
