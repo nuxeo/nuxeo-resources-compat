@@ -2,7 +2,7 @@
 
 ## About this module
 
-Nuxeo Resources Compat provides a compatibility package with web resources (icons, Javascript, ...) that have been removed from the latest release of Nuxeo Platform.
+Nuxeo Resources Compat provides a compatibility package with web resources (icons, Javascript, ...) that have been removed from the latest LTS release of Nuxeo Platform.
 
 
 ## About Nuxeo
