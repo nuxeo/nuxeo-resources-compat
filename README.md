@@ -3,7 +3,7 @@
 ## About this module
 
 The Resources Compatibility addon provides backward compatibility with web 
-resources (icons, JavaScript, ...) that have been removed from the previous LTS 
+resources (icons, images, JavaScript, XHTML, etc.) that have been removed from the previous LTS 
 release of Nuxeo Platform.
 
 
