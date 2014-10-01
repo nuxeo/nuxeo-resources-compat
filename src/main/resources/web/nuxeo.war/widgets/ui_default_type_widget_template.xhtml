@@ -1,0 +1,19 @@
+<f:subview xmlns:f="http://java.sun.com/jsf/core"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:c="http://java.sun.com/jstl/core"
+  xmlns:h="http://java.sun.com/jsf/html"
+  xmlns:nxu="http://nuxeo.org/nxweb/util"
+  id="#{widget.id}">
+<c:if test="false">
+Deprecated since 5.9.6, use the "selectOneMenu" widget type instead (see NXP-14989)
+</c:if>
+
+  <h:selectOneMenu value="#{field}" id="#{widget.id}" >
+    <f:selectItem itemValue="" itemLabel="#{messages['label.local.configuration.ui.defaultType']}"/>
+    <nxu:selectItems value="#{typesConfigurationActions.getTypesWithSchemaFile(layoutValue)}"
+      var="type"
+      itemValue="#{type.id}"
+      itemLabel="#{messages[type.label]}" />
+  </h:selectOneMenu>
+
+</f:subview>
