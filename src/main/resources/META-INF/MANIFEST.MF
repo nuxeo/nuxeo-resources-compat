@@ -4,4 +4,3 @@ Bundle-Name: Nuxeo Resources Compatibility
 Bundle-SymbolicName: org.nuxeo.ecm.platform.resources.compat;singleton:=true
 Bundle-Vendor: Nuxeo
 Bundle-Version: 1.0.0
-Nuxeo-Component: OSGI-INF/theme-contrib.xml
